@@ -1,0 +1,48 @@
+/**********
+GENERAL
+**********/
+
+html {
+        
+    font-family: 'Lato', sans-serif;
+    
+}
+
+/*********
+CONTACT
+*********/
+.contact-container ul{
+    display: inline;
+}
+
+.contact-container li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.contact-container img {
+    width: 100px;
+}
+
+/*********
+PROJECT
+*********/
+#project-gallery ul {
+    display: inline;
+}
+
+/*********
+FOOTER
+*********/
+
+<!-- sticky footer code -->
+
+ body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
